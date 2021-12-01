@@ -8,7 +8,7 @@ namespace ShootingDice
     {
         static void Main(string[] args)
         {
-            SmackTalkingPlayer player1 = new SmackTalkingPlayer();
+            CreativeSmackTalkingPlayer player1 = new CreativeSmackTalkingPlayer();
             player1.Name = "Bob";
 
             OneHigherPlayer player2 = new OneHigherPlayer();
